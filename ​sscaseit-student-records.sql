@@ -1,3 +1,9 @@
+/* * Schema: University Student Record System (SS-CASE-IT)
+ * Description: A centralized database for managing student demographics, 
+ * departmental enrollment, and academic performance.
+ * Features: Standardized data types (VARCHAR, DATE, DECIMAL) for efficient storage.
+ * Author: Aisha Riaz
+ */
 CREATE DATABASE SScase_IT;
 use SScase_IT;
 CREATE TABLE students (
