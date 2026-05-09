@@ -1,4 +1,4 @@
-​# 📊 Relational Database & SQL Portfolio
+​## 📊 Relational Database & SQL Portfolio
 
 This repository showcases advanced SQL schema designs and data analytics scripts, with a focus on **data integrity**, **relational constraints**, and **performance optimization**.
 
