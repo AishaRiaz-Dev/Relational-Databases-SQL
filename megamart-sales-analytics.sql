@@ -1,3 +1,8 @@
+/* * Schema: Retail Sales Analytics (MegaMart)
+ * Description: A schema designed for analytical queries and sales reporting.
+ * Features: Optimized for aggregate functions and business intelligence reporting.
+ * Author: Aisha Riaz
+ */
 drop database if exists MegaMart;
 CREATE DATABASE MegaMart;
 USE MegaMart;
