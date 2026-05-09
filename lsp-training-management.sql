@@ -1,3 +1,9 @@
+/*
+ * Project: Training Management System (LSP)
+ * Description: Relational database schema for managing trainers, programs, and certifications.
+ * Highlights: Implements data integrity via CHECK constraints and relational mapping.
+ * Author: Aisha Riaz
+ */
 CREATE DATABASE LSP_Training;
 USE LSP_Training;
 CREATE TABLE Trainers (
