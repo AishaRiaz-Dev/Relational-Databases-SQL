@@ -12,7 +12,9 @@ A professional-grade project demonstrating the systematic transition from unopti
 * **Architecture:** Deconstructed a messy single-table dataset into logically linked tables (`Customers`, `Products`, `Orders`).
 * **Normalization:** Successfully eliminated partial and transitive dependencies to ensure 100% data consistency.
 * **Integrity:** Implemented `FOREIGN KEY` constraints and `CHECK` logic to prevent invalid data entry.
-
+ 
+### 🏗️ Database Architecture (ERD)
+![Database Design Schema](./normalization-erd-schema.png)
 ---
 
 ### 2. University Student Records (SS-CASE-IT)
