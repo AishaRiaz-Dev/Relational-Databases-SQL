@@ -35,7 +35,7 @@ Writing and profiling optimized scripts for relational engines:
 
 Below is the relational schema design mapping out the database entities, primary keys, and constraint dependencies:
 
-![Database ERD Layout](./Database_Design_ERD.png)
+![Database ERD Layout](normalization-erd-schema.png)
 
 ## 📁 Repository Structure
 
