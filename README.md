@@ -38,12 +38,3 @@ Writing and profiling optimized scripts for relational engines:
 │   ├── DDL-Schemas/       # Database generation tables, constraints, and indexes
 │   └── DML-Queries/       # Complex analytical queries, reports, and joins
 └── README.md
-```  <--- MAKE SURE THESE THREE BACKTICKS ARE HERE ON THEIR OWN LINE!
-
----
-
-## 📊 Entity-Relationship Diagram (ERD)
-
-Below is the relational schema design mapping out the database entities, primary keys, and constraint dependencies:
-
-![Database ERD Layout](./Database%20Design%20ERD.png)
