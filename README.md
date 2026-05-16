@@ -29,6 +29,14 @@ Writing and profiling optimized scripts for relational engines:
 
 ---
 
+---
+
+## 📊 Entity-Relationship Diagram (ERD)
+
+Below is the relational schema design mapping out the database entities, primary keys, and constraint dependencies:
+
+![Database ERD Layout](./Database_Design_ERD.png)
+
 ## 📁 Repository Structure
 
 ```text
@@ -39,4 +47,3 @@ Writing and profiling optimized scripts for relational engines:
 │   └── DML-Queries/       # Complex analytical queries, reports, and joins
 └── README.md
 
-<img src="Database Design ERD.png" alt="Database ERD Layout" width="100%">
