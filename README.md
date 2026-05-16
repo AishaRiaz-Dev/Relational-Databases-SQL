@@ -1,65 +1,40 @@
-# 📊 Relational Database & SQL Portfolio
+# Relational Databases & Advanced SQL 🗄️
 
-This repository showcases advanced SQL schema designs, data analytics scripts, and complex relational mappings. The focus is on **database architecture**, **3rd Normal Form (3NF) normalization**, and **data integrity**.
+A comprehensive repository dedicated to production-grade database schema design, normalization strategies, and optimization of complex analytical queries. This project documents my execution of data integrity principles, relational mapping, and structured database engineering.
 
----
-
-## 🚀 Featured Projects
-
-### 1. Database Normalization Case Study (E-Commerce)
-**File:** `normalization-ecommerce-system.sql`
-A professional-grade project demonstrating the systematic transition from unoptimized "flat-file" data to a 3NF relational structure.
-* **Architecture:** Deconstructed a messy single-table dataset into logically linked tables (`Customers`, `Products`, `Orders`).
-* **Normalization:** Successfully eliminated partial and transitive dependencies to ensure 100% data consistency.
-* **Integrity:** Implemented `FOREIGN KEY` constraints and `CHECK` logic to prevent invalid data entry.
- 
-### 🏗️ Database Architecture (ERD)
-![Database Design Schema](./normalization-erd-schema.png)
----
-
-### 2. University Student Records (SS-CASE-IT)
-**File:** `sscaseit-student-records.sql`
-A centralized management system tailored for institutional academic data, specifically modeled for university environments.
-* **Logic:** Handles complex student demographics, departmental enrollment, and academic performance tracking.
-* **Standards:** Uses optimized data types (`DECIMAL` for fees, `DATE` for timestamps) to ensure high-performance queries.
+![GitHub repo size](https://img.shields.io/github/repo-size/AishaRiaz-Dev/Relational-Databases-SQL?color=blue)
+![GitHub top language](https://img.shields.io/github/languages/top/AishaRiaz-Dev/Relational-Databases-SQL?color=orange)
+![GitHub last commit](https://img.shields.io/github/last-commit/AishaRiaz-Dev/Relational-Databases-SQL?color=green)
 
 ---
 
-### 3. Training Management System
-**File:** `lsp-training-management.sql`
-A robust schema designed to manage professional training ecosystems and trainer certifications.
-* **Relational Mapping:** Manages many-to-many relationships between `Trainers` and `Programs`.
-* **Constraints:** Features `AUTO_INCREMENT` primary keys and strict input validation rules.
+## 🚀 Core Competencies Covered
+
+### 1. Database Schema Design & Modeling
+* **Conceptual & Logical Modeling:** Designing data models from raw business requirements.
+* **Entity-Relationship Diagrams (ERDs):** Defining clear entities, attributes, primary keys, and complex foreign key relationships.
+* **Relational Mapping:** Translating abstract diagrams into executable, high-performance DDL scripts.
+
+### 2. Strict Normalization Pipeline (Up to 3NF/BCNF)
+Ensuring zero data redundancy and maximizing data integrity by driving schemas through formal normalization states:
+* **1NF:** Eliminating duplicate columns and ensuring atomicity of data fields.
+* **2NF:** Removing partial dependencies to ensure all non-key attributes depend entirely on the primary key.
+* **3NF / BCNF:** Eliminating transitive dependencies to prevent data anomalies during `INSERT`, `UPDATE`, and `DELETE` transactions.
+
+### 3. Advanced Analytical SQL Execution
+Writing and profiling optimized scripts for relational engines:
+* Complex multi-table inner/outer joins.
+* Nested subqueries and Common Table Expressions (CTEs) for readable, modular logic.
+* Aggregations, data grouping, and advanced constraint handling (`UNIQUE`, `CHECK`, `FOREIGN KEY` cascades).
 
 ---
 
-### 4. Retail Sales Analytics (MegaMart)
-**File:** `megamart-sales-analytics.sql`
-Business intelligence scripts engineered for retail sales reporting and trend analysis.
-* **Analytics:** Utilizes sophisticated aggregate functions (`SUM`, `AVG`, `GROUP BY`) to derive actionable insights.
-* **Performance:** Optimized for complex `JOIN` operations across large datasets.
+## 📁 Repository Structure
 
----
-
-## 🛠️ Technical Proficiencies
-
-* **Database Design:** Mastery of 1NF, 2NF, and 3rd Normal Form (3NF) compliance.
-* **Data Integrity:** Expert implementation of `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, and `CHECK` constraints.
-* **Relational Logic:** Proficient in designing schemas that minimize redundancy and maximize storage efficiency.
-* **Advanced Querying:** Experienced in multi-table `INNER JOIN` operations and data aggregation for reporting.
-
----
-
-## ⚙️ How to Deploy
-
-1.  **Clone the repository:** `git clone https://github.com/AishaRiaz-Dev/Relational-Databases-SQL.git`
-
-2.  **Environment:** Open your preferred SQL workbench (MySQL, PostgreSQL, or SQL Server).
-
-3.  **Execute:** Run the `.sql` files in order to generate the schemas and populate sample records.
-
----
-
-**Author:** Aisha Riaz  
-**Focus:** Software Engineering | Open Source Contributor  
-**University:** Sir Syed CASE Institute of Technology (SS-CASE-IT)​
+```text
+├── ERD-Diagrams/          # Visual schema layouts and relational mappings
+├── Normalization/         # Documentation and case studies breaking anomalies down to 3NF
+├── SQL-Scripts/
+│   ├── DDL-Schemas/       # Database generation tables, constraints, and indexes
+│   └── DML-Queries/       # Complex analytical queries, reports, and joins
+└── README.md
