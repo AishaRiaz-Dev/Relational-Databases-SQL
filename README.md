@@ -38,3 +38,5 @@ Writing and profiling optimized scripts for relational engines:
 │   ├── DDL-Schemas/       # Database generation tables, constraints, and indexes
 │   └── DML-Queries/       # Complex analytical queries, reports, and joins
 └── README.md
+
+<img src="Database Design ERD.png" alt="Database ERD Layout" width="100%">
